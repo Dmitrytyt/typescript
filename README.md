@@ -1,0 +1,1 @@
+# TypeScript and design patterns
