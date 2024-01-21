@@ -86,4 +86,5 @@ async function getData(url: string): Promise<IUsers | unknown> {
     };
 }
 
-export { getData };
+const resPromise = getData('https://dummyjson.com/users');
+resPromise.then(value => console.log(value));
