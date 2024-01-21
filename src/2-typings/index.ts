@@ -104,4 +104,4 @@ function generateWords(number: number, words?: string[]) {
     return generateWords(remainder, words);
 }
 
-export default toWords;
+console.log(toWords(25));
